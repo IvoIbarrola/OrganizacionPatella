@@ -229,3 +229,59 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+.documentos {
+  background: #f7f7f7;
+  text-align: center;
+}
+
+.documentos-intro {
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.documentos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.doc-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.doc-card:hover {
+  transform: translateY(-8px);
+}
+
+.doc-card i {
+  color: #bc439e;
+  margin-bottom: 10px;
+}
+
+.promo-hogar {
+  background: #0f276f;
+  color: white;
+}
+
+.promo-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.promo-img img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.promo-destacado {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 20px 0;
+}
