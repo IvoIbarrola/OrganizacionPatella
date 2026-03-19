@@ -21,7 +21,20 @@ h2 {
 }
 
 /* HERO */
+.hero-logo {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
 
+.hero-logo img {
+  width: 400px;
+  max-width: 90%;
+  opacity: 0.9;
+  filter: drop-shadow(0 6px 15px rgba(0, 0, 0, 0.4));
+}
 .hero {
   height: 90vh;
   background-image: url("https://images.unsplash.com/photo-1552664730-d307ca884978");
@@ -33,6 +46,10 @@ h2 {
   text-align: center;
   color: white;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-overlay {
@@ -48,7 +65,8 @@ h2 {
 
 .hero-content {
   position: relative;
-  max-width: 800px;
+  margin-top: 140px;
+  max-width: 700px;
 }
 
 .hero p {
